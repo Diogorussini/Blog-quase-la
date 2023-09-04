@@ -1,0 +1,75 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #000000;
+    color: rgb(134, 5, 5);
+   
+    padding: 2em;
+    align-items: center;
+    display: flex;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   justify-content: space-between;
+}
+
+
+/* Estilos da barra de navegação */
+nav {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  
+    padding: 0.5em;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0.6em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+button {
+    background-color: rgb(0, 0, 0);
+ 
+} 
+
+/* Estilos do conteúdo principal */
+main {
+  background-image: url(../images/Homem-Aranha-01.jpg);
+    padding: 2em;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.box {
+   width: 900px;
+    background-color: #000000;
+    height: 700px;
+    border-radius: 10px;
+    border-style: inset;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #000000;
+    color: white;
+}
